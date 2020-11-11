@@ -1,0 +1,28 @@
+{
+  "name": "serverless_tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "serverless offline start",
+    "deploy": "serverless deploy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-serverless-express": "^3.3.8",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-kakao": "^1.0.0",
+    "pug": "^3.0.0",
+    "sequelize": "^6.3.5",
+    "serverless": "^2.11.1",
+    "serverless-offline": "^6.8.0",
+    "serverless-offline-scheduler": "^0.4.2"
+  }
+}
